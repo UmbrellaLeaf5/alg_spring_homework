@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.10)
 
 project(homeworks)
 
+set(CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -std=c++17 -O2")
+
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/sandbox)
